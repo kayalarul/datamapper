@@ -5,13 +5,12 @@ id: introducing-datamapper
 
 # Introduction
 
-In the dynamic landscape of today's digital world, efficient data management is the cornerstone of successful businesses. Meet Datamapper, your all-in-one solution for streamlined data organization and seamless access. With Datamapper, you can revolutionize the way you handle your data by providing robust features for login, collection creation and management, schema definition, and lookup table creation.
+DataMapper offers a straightforward approach to seamlessly harmonize your data, providing a user-friendly visual mapping interface that empowers you to achieve efficient data integration without the need for a steep learning curve. With the capabilities of DataMapper, you can effortlessly generate collections, perform robust mapping, and establish a Schema Library.
 
 ## Key Features:
 
-* User-Friendly Login: Datamapper offers a secure and user-friendly login system, ensuring that your data is accessed by authorized individuals, enhancing data security.
 * [Collection Management](./Collection.md): Create, view, and organize your data collections effortlessly. Whether you're dealing with customer records, inventory data, or any other form of information, Datamapper makes it easy.
-* [Mapping and Schema Definition](./Mapping.md): Datamapper simplifies the process of mapping your data and defining schemas, ensuring data integrity and consistency across your organization.
+* [Mapping and Schema Definition](./Mapping.md): DataMapper makes the data mapping easy. After creating the data collection you can define the data mapping into that. Data
 * Lookup Tables: Create and view lookup tables to enhance data accuracy and improve data retrieval efficiency.
 
   ![](media/collection.png)
