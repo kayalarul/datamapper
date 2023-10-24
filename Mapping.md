@@ -50,16 +50,27 @@ Mapping can be created from multiple places, the most common scenerio is once th
 
     ![](media/edit-schema.png)
 
-12. 
+12. You can click on the cross icon on the top left corner to close the **Viewing Pet** screen.
+
+13. Now, click on the **Next** to proceed with the source to target mapping.
+
+    ![](media/stot1.png)
+    
+14. On **Save mapping** window, you can click on the **Auto Map & Save** to map the mapping automatically. Also, you can click on **Preview mapping** and update the mapping manually.
+
+    ![](media/preview-mapping.png)
+
+15. You can also remove the mapping by clicking on the target object and then click on teh ellepses and select remove all mapping.
+
+16. Once you are done with the mapping, click on the **Apply and Save Mapping**.
+
+    ![](media/apply-mapping.png)
+
+17. Now, click on **Save Mapping**.
+
+    ![](media/save-mapping.png)
+
+18
 
    
 
-   
-
-## Source Schema:
-The source schema represents the structure and format of the data as it is originally stored or received. It defines the fields, data types, and relationships within the data source.
-
-## Target schema:
-The target schema, on the other hand, defines the structure and format of the data as you want it to be after transformation. It specifies the desired fields, data types, and relationships in the transformed data.
-
-  ![](/media/create-mapping.png)
