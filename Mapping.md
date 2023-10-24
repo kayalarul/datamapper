@@ -70,7 +70,11 @@ Mapping can be created from multiple places, the most common scenerio is once th
 
     ![](media/save-mapping.png)
 
-18
+18. You can generate the code using the **Code Generator**, code can be generated for supported programming languages i.e. Java (Experimental), Java Script (Experimental), C#, Java and Java Script. You can click on Generate Code icon and then select programming language of your choice. Once the code is generated you can copy it or download it.
+
+    ![](media/generate-code.png)
+
+    
 
    
 
