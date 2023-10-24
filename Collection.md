@@ -14,5 +14,10 @@ With Datamapper, you can create the collections easily and once the collection i
 
     > **Note**: In the Name only underscore (_) is allowed and only dot (.) is allowed in the Name Space of the collection from the special charaters
 
-4. Once the collection is created 
-5.  
+4. Once the collection is created, you would be able to see it on the left hand side under the Collections.
+
+   ![](media/created-collection.png)
+   
+5. You can click on the collection and explore it. You will find collection is empty and there is no mapping in that.
+
+Go to the [Mapping](Mapping.md) Page and learn about how to create the Mapping and map teh source and target.
