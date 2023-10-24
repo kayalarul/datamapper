@@ -20,4 +20,4 @@ With Datamapper, you can create the collections easily and once the collection i
    
 5. You can click on the collection and explore it. You will find collection is empty and there is no mapping in that.
 
-Go to the [Mapping](Mapping.md) Page and learn about how to create the Mapping and map teh source and target.
+Click on [Mapping](Mapping.md) to learn about how to create the Mapping and map the source and target.
