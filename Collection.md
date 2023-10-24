@@ -8,9 +8,11 @@ With Datamapper, you can create the collections easily and once the collection i
 
     ![](media/create-collection-1.png)
 
-2. Under **Create new collection** tab, provide the collection Name, Version, Name Space and Description. Once you have added the details, click on the **Create** to create the collection. In the Name only underscore (_) is allowed and only dot (.) is allowed in the Name Space of the collection from the special charaters
+2. Under **Create new collection** tab, provide the collection Name, Version, Name Space and Description. Once you have added the details, click on the **Create** to create the collection.
 
     ![](media/create-collection-2.png)
 
-3. Once the collection is created 
-4.  
+    > **Note**: In the Name only underscore (_) is allowed and only dot (.) is allowed in the Name Space of the collection from the special charaters
+
+4. Once the collection is created 
+5.  
