@@ -2,11 +2,7 @@
 
 With Datamapper, you can create the collections easily and once the collection is created you would be able to create the mapping of data.
 
-## Collection Management
-
-Here you will learn about how to create, view a collection on DataMapper.
-
-### Create the collection
+## Create the collection
 
 1. To create the collection go to the DataMapper and click on the create button under Collection.
 
