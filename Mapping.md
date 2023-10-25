@@ -19,7 +19,7 @@ Mapping can be created from multiple places, the most common scenerio is once th
 2. Under the **Add mapping Details** tab, choose the collection name where you want to add the map and then provide the name for your map for **Name your map**, you can also add the description for this mapping under your selected collection.
 3. Now, click on the Next button.
 
-    ![](media/add-mapping-details.png)
+    ![](media/add-mapping-details1.png)
 
 4. Under **Upload and edit schemas** tab, add the source and target using any supported method, here we will upload the schema using API URL, you can also do it by upload/drag-drop the supported file types.
 
