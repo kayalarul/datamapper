@@ -90,3 +90,41 @@ Here's a step-by-step guide to creating a mapping:
 18. To enhance convenience further, you can generate code using the **Code Generator**. Supported programming languages include Java (Experimental), JavaScript (Experimental), C#, Java, and JavaScript. Simply click on the "Generate Code" icon, then select your preferred programming language. Once the code is generated, you can copy it or download it for your use.
 
     ![](media/generate-code.png)
+
+## Functions
+
+Functions are a powerful tool in DataMapper mapping, making the process of mapping data from multiple sources to the target a breeze. Mapping expressions can harness these functions to manipulate your data effectively.
+
+Let's delve into an example of how functions can be employed:
+
+1. First, add another source. Paste the API link from which you want to download the file and then click **Download from the entered URL**.
+
+   ![](media/f-import-source.png)
+
+2. Select the definition you want to import and then click **Create**.
+
+   ![](media/f-select-definition.png)
+
+3. On **Import Source Schema** tab, review the schema and click **Confirm**.
+
+   ![](media/f-confirm-schema.png)
+
+4. Let's say you want to map the **firstName** and **lastName** from the source **User** to the **Name** in the target **Pet**. To achieve this, you can use the **concat** function in Mapping Expressions:
+
+   ```
+   concat($.User.firstName,$.User.lastName)
+   ```
+   ![](media/f-concat.png)
+
+Likewise, you can harness the capabilities of these functions to effortlessly manipulate your data mappings, making tasks such as merging, transforming, and validating data a seamless part of your data integration process.
+
+
+   
+ 
+
+
+
+
+
+
+
