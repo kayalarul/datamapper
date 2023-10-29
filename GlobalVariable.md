@@ -26,4 +26,4 @@ You can also add Global Variables in DataMapper, which can be imported during th
 
    ![](media/gb-review-variable.png)
 
-That's how you can seamlessly include a **Variable Group** in your mapping process, ensuring consistency and efficiency. For further details, refer to the (Mapping)[Mapping.md] section to explore the process of adding mappings to your Data Collections and leveraging these global variables to streamline your data integration efforts.
+That's how you can seamlessly include a **Variable Group** in your mapping process, ensuring consistency and efficiency. For further details, refer to the [Mapping](Mapping.md) section to explore the process of adding mappings to your Data Collections and leveraging these global variables to streamline your data integration efforts.
