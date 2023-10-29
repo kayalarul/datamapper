@@ -1,80 +1,92 @@
 # Mapping
 
-Mapping is a feature to map the source and target data. Here are the few highlights about the Mapping.
+Mapping is the cornerstone of DataMapper, allowing you to seamlessly link source and target data. Here are some standout features of the Mapping module:
 
-* Adding multiple sources and targets are allowed.
-* Data can be added from API link, files can be directly uploaded from local system.
-* Drag and Drop of the files are supported.
-* Maximum allowed file size is 500 KB.
-* Auto mapping is supported for simillar coloumn names.
-* Manual mapping is supported for any custom mapping.
+* **Versatile Source and Target Handling:** You can effortlessly add multiple sources and targets, enabling unparalleled flexibility.
+* **Data Integration Made Simple:** Data can be sourced from API links, and you can directly upload files from your local system.
+* **Drag-and-Drop Convenience:** The user-friendly drag-and-drop feature is fully supported, streamlining data manipulation.
+* **File Size Limit:** Keep in mind that the maximum allowable file size is capped at 500 KB.
+* **Auto Mapping:** For columns with similar names, DataMapper supports automatic mapping, making your life easier.
+* **Manual Mapping:** Should you require custom mapping, DataMapper has you covered, providing complete control over your data integration.
 
 ## Create Mapping
 
-Mapping can be created from multiple places, the most common scenerio is once the collection is created and you explore that collection you will get an option to create a new mapping. Also, from the home page you can create it from mapping and then create option.
+Mapping creation is a versatile process that can be initiated from various entry points. One common scenario is when you've already created a collection and are exploring its contents. At this point, you'll have the option to create a new mapping. Alternatively, from the home page, you can access the "Mapping" section and initiate the creation process.
 
-1.  To create mapping directly from the collection, click on the Create a new mapping under the collection name.
+Here's a step-by-step guide to creating a mapping:
 
-    ![](media/create-new-mapping.png)
-2.  Under the **Add mapping Details** tab, choose the collection name where you want to add the map and then provide the name for your map for **Name your map**, you can also add the description for this mapping under your selected collection.
-3.  Now, click on the Next button.
+1. To create a mapping directly from a collection, click on "Create a new mapping" beneath the collection name.
 
+   ![](media/create-new-mapping.png)
 
-    ![](media/add-mapping-details1.png)
+2. In the **Add Mapping Details** tab, select the collection where you wish to add the map. Provide a name for your map in the **Name your map** field, and include a description for this mapping under your selected collection.
 
-4.  Under **Upload and edit schemas** tab, add the source and target using any supported method, here we will upload the schema using API URL, you can also do it by upload/drag-drop the supported file types.
+3. Click the "Next" button to continue.
 
-    ![](media/upload-schema.png)
+   ![](media/add-mapping-details1.png)
+
+4. Under the **Upload and Edit Schemas** tab, you can add the source and target using any supported method. In this example, we'll upload the schema using an API URL, but you can also achieve this by uploading or drag-and dropping supported file types.
+
+   ![](media/upload-schema.png)
     
-5.  To add the source, paste the API link from where you want to download the file and the click on download from the entered URL.
+5. To add the source, paste the API link from which you want to download the file and then click **Download** from the entered URL.
 
-    <div align="left">
+   <div align="left">
 
-    <img src="media/add-source.png" alt="">
+   <img src="media/add-source.png" alt="">
 
-    </div>
-6.  Select the defination you want to import and then click on the **Create**.
+   </div>
+    
+6. Select the definition you wish to import and then click **Create.**
 
-    <div align="left">
+   <div align="left">
 
-    <img src="media/create-source-deffination.png" alt="">
+   <img src="media/create-source-deffination.png" alt="">
 
-    </div>
-7.  Similarly, you can add the target, provide the target API link or upload the file from your computer.
+   </div>
+7. Similarly, you can add the target, either by providing the target API link or uploading the file from your computer.
+    
+   <div align="left">
 
-    <div align="left">
+   <img src="media/add-target.png" alt="">
 
-    <img src="media/add-target.png" alt="">
+   </div>
+    
+8. Select the definition you want to import for the target and click **Create.**
 
-    </div>
-8.  Select the definition you want to import for the target and click on **Create**.
+   <div align="left">
 
-    <div align="left">
+   <img src="media/target-defination.png" alt="">
 
-    <img src="media/target-defination.png" alt="">
+   </div>
+9. Once the source and target are added, you can click on the eye icon under source and target to preview the schema.
 
-    </div>
-9.  Once the source and target is added you can click on the eye icon under source and target and preview the schema.
+   ![](media/eye-preview-schema.png)
 
-    ![](media/eye-preview-schema.png)
-10. Once you load the preview schema, you can see the data in a structured way. You can see **Reqd**, **Type**, **Property** etc. If you want you can edit the schema as well here.
-11. Here lets edit the **Category** property name to **Cat** and then click on **Apply**. You can edit the other items as well like description and example.
+10. After loading the preview schema, you can view the data in a structured manner, including "**Reqd**, **Type**, **Property** and more. You can also edit the schema here.
+
+11. Let's make an example edit: change the **Category** property name to **Cat**, then click **Apply**. You can edit other items, such as descriptions and examples.
 
     ![](media/edit-schema.png)
-12. You can click on the cross icon on the top left corner to close the **Viewing Pet** screen.
-13. Now, click on the **Next** to proceed with the source to target mapping.
+   
+12. You can close the **Viewing Pet** screen by clicking on the cross icon in the top left corner.
+13. Now, click **Next** to proceed with the source-to-target mapping.
 
     ![](media/stot1.png)
-14. On **Save mapping** window, you can click on the **Auto Map & Save** to map the mapping automatically. Also, you can click on **Preview mapping** and update the mapping manually.
+    
+14. On the **Save Mapping** window, you have the option to either click **Auto Map & Save** for automatic mapping or select **Preview Mapping** to make manual updates.
 
     ![](media/preview-mapping.png)
-15. You can also remove the mapping by clicking on the target object and then click on the ellipses and select remove all mapping.
-16. Once you are done with the mapping, click on the **Apply and Save Mapping**.
+    
+15. You can also remove the mapping by clicking on the target object and then selecting **Remove All Mapping** from the ellipsis menu.
+16. Once you've completed the mapping, click **Apply and Save Mapping**.
 
     ![](media/apply-mapping.png)
-17. Now, click on **Save Mapping**.
+    
+17. Finally, click **Save Mapping**.
 
     ![](media/save-mapping.png)
-18. You can generate the code using the **Code Generator**, code can be generated for supported programming languages i.e. Java (Experimental), Java Script (Experimental), C#, Java and Java Script. You can click on Generate Code icon and then select programming language of your choice. Once the code is generated you can copy it or download it.
+    
+18. To enhance convenience further, you can generate code using the **Code Generator**. Supported programming languages include Java (Experimental), JavaScript (Experimental), C#, Java, and JavaScript. Simply click on the "Generate Code" icon, then select your preferred programming language. Once the code is generated, you can copy it or download it for your use.
 
     ![](media/generate-code.png)
