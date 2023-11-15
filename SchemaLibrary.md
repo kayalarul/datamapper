@@ -1,6 +1,5 @@
-# Unleash the Power of Schema Library
-
-When it comes to DataMapper's boundless flexibility, the Schema Library stands as a mighty feature. This invaluable tool empowers you to import and preserve frequently used schemas, simplifying the process of mapping source and target data.
+## Schema Library
+Store schemas in a shared space for easy access and collaboration. Eliminate manual schema selection; instantly access shared schemas for seamless integration into mapping files. Streamline processes by centralizing and sharing schemas within the organization.he process of mapping source and target data.
 
 ### The Art of Schema Import
 
