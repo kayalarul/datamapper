@@ -1,5 +1,5 @@
 ## Introduction
-You can also add Global Variables in DataMapper, which can be imported during the mapping process in the source schema from the defined global variables. Using variables makes it easy when the same data key values are required across multiple mappings, simplifying data integration tasks.
+Boost data management efficiency by storing frequently accessed data as global variables. Create a central hub for commonly used data across different parts of the system. Use global variables strategically to streamline processes and enhance overall system efficiency. Utilize global variables as a smart strategy for efficient data access and management.
 
 ## Add Global Variables
 
