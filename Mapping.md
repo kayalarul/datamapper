@@ -15,78 +15,65 @@ Mapping creation is a versatile process that can be initiated from various entry
 
 Here's a step-by-step guide to creating a mapping:
 
-1. To create a mapping directly from a collection, click on "Create a new mapping" beneath the collection name.
+1.  To create a mapping directly from a collection, click on "Create a new mapping" beneath the collection name.
 
-   ![](media/create-new-mapping.png)
-
+    ![](media/create-new-mapping.png)
 2. In the **Add Mapping Details** tab, select the collection where you wish to add the map. Provide a name for your map in the **Name your map** field, and include a description for this mapping under your selected collection.
+3.  Click the "Next" button to continue.
 
-3. Click the "Next" button to continue.
+    ![](media/add-mapping-details1.png)
+4.  Under the **Upload and Edit Schemas** tab, you can add the source and target using any supported method. In this example, we'll upload the schema using an API URL, but you can also achieve this by uploading or drag-and dropping supported file types.
 
-   ![](media/add-mapping-details1.png)
+    ![](media/upload-schema.png)
+5.  To add the source, paste the API link from which you want to download the file and then click **Download** from the entered URL.
 
-4. Under the **Upload and Edit Schemas** tab, you can add the source and target using any supported method. In this example, we'll upload the schema using an API URL, but you can also achieve this by uploading or drag-and dropping supported file types.
+    <div align="left">
 
-   ![](media/upload-schema.png)
-    
-5. To add the source, paste the API link from which you want to download the file and then click **Download** from the entered URL.
+    <img src="media/add-source.png" alt="">
 
-   <div align="left">
+    </div>
+6.  Select the definition you wish to import and then click **Create.**
 
-   <img src="media/add-source.png" alt="">
+    <div align="left">
 
-   </div>
-    
-6. Select the definition you wish to import and then click **Create.**
+    <img src="media/create-source-deffination.png" alt="">
 
-   <div align="left">
+    </div>
+7.  Similarly, you can add the target, either by providing the target API link or uploading the file from your computer.
 
-   <img src="media/create-source-deffination.png" alt="">
+    <div align="left">
 
-   </div>
-7. Similarly, you can add the target, either by providing the target API link or uploading the file from your computer.
-    
-   <div align="left">
+    <img src="media/add-target.png" alt="">
 
-   <img src="media/add-target.png" alt="">
+    </div>
+8.  Select the definition you want to import for the target and click **Create.**
 
-   </div>
-    
-8. Select the definition you want to import for the target and click **Create.**
+    <div align="left">
 
-   <div align="left">
+    <img src="media/target-defination.png" alt="">
 
-   <img src="media/target-defination.png" alt="">
+    </div>
+9.  Once the source and target are added, you can click on the eye icon under source and target to preview the schema.
 
-   </div>
-9. Once the source and target are added, you can click on the eye icon under source and target to preview the schema.
-
-   ![](media/eye-preview-schema.png)
-
+    ![](media/eye-preview-schema.png)
 10. After loading the preview schema, you can view the data in a structured manner, including "**Reqd**, **Type**, **Property** and more. You can also edit the schema here.
-
 11. Let's make an example edit: change the **Category** property name to **Cat**, then click **Apply**. You can edit other items, such as descriptions and examples.
 
     ![](media/edit-schema.png)
-   
 12. You can close the **Viewing Pet** screen by clicking on the cross icon in the top left corner.
 13. Now, click **Next** to proceed with the source-to-target mapping.
 
     ![](media/stot1.png)
-    
 14. On the **Save Mapping** window, you have the option to either click **Auto Map & Save** for automatic mapping or select **Preview Mapping** to make manual updates.
 
     ![](media/preview-mapping.png)
-    
 15. You can also remove the mapping by clicking on the target object and then selecting **Remove All Mapping** from the ellipsis menu.
 16. Once you've completed the mapping, click **Apply and Save Mapping**.
 
     ![](media/apply-mapping.png)
-    
 17. Finally, click **Save Mapping**.
 
     ![](media/save-mapping.png)
-    
 18. To enhance convenience further, you can generate code using the **Code Generator**. Supported programming languages include Java (Experimental), JavaScript (Experimental), C#, Java, and JavaScript. Simply click on the "Generate Code" icon, then select your preferred programming language. Once the code is generated, you can copy it or download it for your use.
 
     ![](media/generate-code.png)
@@ -97,35 +84,37 @@ Functions are a powerful tool in DataMapper mapping, making the process of mappi
 
 Let's delve into an example of how functions can be employed:
 
-1. First, add another source. Paste the API link from which you want to download the file and then click **Download from the entered URL**.
+1.  First, add another source. Paste the API link from which you want to download the file and then click **Download from the entered URL**.
 
-   ![](media/f-import-source.png)
+    <div align="left">
 
-2. Select the definition you want to import and then click **Create**.
+    <img src="media/f-import-source.png" alt="">
 
-   ![](media/f-select-definition.png)
+    </div>
+2.  Select the definition you want to import and then click **Create**.
 
-3. On **Import Source Schema** tab, review the schema and click **Confirm**.
+    <div align="left">
 
-   ![](media/f-confirm-schema.png)
+    <img src="media/f-select-definition.png" alt="">
 
-4. Let's say you want to map the **firstName** and **lastName** from the source **User** to the **Name** in the target **Pet**. To achieve this, you can use the **concat** function in Mapping Expressions:
+    </div>
+3.  On **Import Source Schema** tab, review the schema and click **Confirm**.
 
-   ```
-   concat($.User.firstName,$.User.lastName)
-   ```
-   ![](media/f-concat.png)
+    <div align="left">
+
+    <img src="media/f-confirm-schema.png" alt="">
+
+    </div>
+4.  Let's say you want to map the **firstName** and **lastName** from the source **User** to the **Name** in the target **Pet**. To achieve this, you can use the **concat** function in Mapping Expressions:
+
+    ```
+    concat($.User.firstName,$.User.lastName)
+    ```
+
+    <div align="left">
+
+    <img src="media/f-concat.png" alt="">
+
+    </div>
 
 Likewise, you can harness the capabilities of these functions to effortlessly manipulate your data mappings, making tasks such as merging, transforming, and validating data a seamless part of your data integration process.
-
-
-
-   
- 
-
-
-
-
-
-
-

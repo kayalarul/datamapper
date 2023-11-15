@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Collection Management](Collection.md)
 * [Mapping](Mapping.md)
-* [Schema Library](SchemaLibrary.md)
+* [Unleash the Power of Schema Library](SchemaLibrary.md)
 * [Global Variable](GlobalVariable.md)
