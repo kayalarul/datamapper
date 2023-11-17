@@ -4,7 +4,7 @@ Effortlessly manage mappings with Collections. Create new maps, import existing 
 
 ## Create the collection
 
-1.  Crafting a collection has never been more straightforward. Journey to the heart of DataMapper and breathe life into your Data Collection by invoking the "Create" button under the "Collection" tab.
+1.  Create the connection by clicking on "Create" button under the "Collection" tab.
    
     <div align="left">
 
