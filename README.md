@@ -19,14 +19,13 @@ In summary, this visual interaction-based no-code platform not only simplifies a
 
 ## Key Features:
 
-DataMapper revolves around these key components - [Global Variables](./GlobalVariable.md), [Schema Library](./SchemaLibrary.md), [Collection](./Collection.md), and [Mapping](./Mapping.md). Users can define Global Variables and Schema Libraries, while also creating collections and mappings. These integral components collectively empower users to streamline data management, enhance organizational efficiency, and execute seamless transformations.
-
-Boost data management efficiency by storing frequently accessed data as [Global Variables](./GlobalVariable.md). Create a central hub for commonly used data across different parts of the system. Use global variables strategically to streamline processes and enhance overall system efficiency. Utilize global variables as a smart strategy for efficient data access and management.
-
-[Schema Library](./SchemaLibrary.md) is used to store schemas in a shared space for easy access and collaboration. Eliminate manual schema selection; instantly access shared schemas for seamless integration into mapping files. Streamline processes by centralizing and sharing schemas within the organization.
+DataMapper revolves around these key components - [Collection](./Collection.md), [Mapping](./Mapping.md), [Global Variables](./GlobalVariable.md) and [Schema Library](./SchemaLibrary.md). Users can define Global Variables and Schema Libraries, while also creating collections and mappings. These integral components collectively empower users to streamline data management, enhance organizational efficiency, and execute seamless transformations.
 
 [Collection](./Collection.md), which is a key component of DataMapper, you can effortlessly manage mappings with Collections. Create new maps, import existing mappings, save mappings to files, and duplicate mapping files seamlessly. This simplifies the organization and manipulation of mapping data, making tasks like creating, importing, exporting, and copying mappings straightforward. Whether dealing with complex data or programming, "Collections" provides a user-friendly way to handle mappings efficiently, ensuring a smooth workflow for users of all levels.
 
 In the [Mapping](./Mapping.md) space, users contribute by defining source and target schemas. Initiate the transformation process, ensuring accuracy in transitioning from the original ('source') to the desired ('target') data formats. Define the structure within which data seamlessly transforms, creating a smooth transition from source to target. Users can confidently mold their data with precision, ensuring the integrity of the transformed information.
 
-Are you ready for a fun journey into the world of handling information? Take the plunge into your data adventure with DataMapper today. See how your data can do amazing things right before your eyes. Start now and explore the magic of smooth transformations and easy management. The excitement is just beginning!
+Boost data management efficiency by storing frequently accessed data as [Global Variables](./GlobalVariable.md). Create a central hub for commonly used data across different parts of the system. Use global variables strategically to streamline processes and enhance overall system efficiency. Utilize global variables as a smart strategy for efficient data access and management.
+
+[Schema Library](./SchemaLibrary.md) is used to store schemas in a shared space for easy access and collaboration. Eliminate manual schema selection; instantly access shared schemas for seamless integration into mapping files. Streamline processes by centralizing and sharing schemas within the organization.
+
